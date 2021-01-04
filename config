@@ -1,0 +1,39 @@
+[General]
+initialSeconds = 20
+disarmCode = 0000
+resetCode = 9999
+
+[ServerPorts]
+master = 65535
+doorSensor = 65534
+timer = 65533
+display = 65532
+keypad = 65531
+magnet = 65530
+speaker = 65529
+
+[Pins]
+doorSensor = 2
+magnet = 3
+
+[Audio]
+# The tick sound played each second
+tick = "tick.mp3"
+# The sound played by the bomb when the timer hits zero
+fail = "fail.mp3"
+# The explosion sound played on the big speaker if the players fail
+blam = "blam.mp3"
+# The sound played by the bomb when players open the outside box
+arm = "arm.mp3"
+# The sound played when players put in the correct unlock code
+correct = "correct.mp3"
+# The sound played when the reset code is entered
+reset = "reset.mp3"
+# The sound played when the magnets release the interior door
+release = "release.mp3"
+# The sound played when groups completely disarm the bomb
+disarm = "disarm.mp3
+# The sound played overhead when groups are victorious
+victory = "victory.mp3"
+# The sound played as the bomb is powering up
+power = "power.mp3"
