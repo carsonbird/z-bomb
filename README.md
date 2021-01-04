@@ -51,6 +51,12 @@ At this point, a few things:
 
 ## Other Notes
 
+### Requirements
+
+This repo uses [ZeroRPC](https://www.zerorpc.io/), and a number of Adafruit python libraries. You'll have to search for these on github, based on the name of the Adafruit component. Many of the libraries are already included in this python package / repo, but just in case, I thought it would be good for you to know.
+
+### Spawning
+
 Startup:
 The Operating System spawns the superserver.py.
 
